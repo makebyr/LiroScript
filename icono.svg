@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120">
+  <defs>
+    <style>
+      .bg { fill: #000000; stroke: #ffffff; stroke-width: 3; }
+      .fire { fill: #ff4500; }
+      .fire-inner { fill: #ffcc00; }
+      .parrot { fill: #00ffcc; }
+      .code-text { fill: #ffffff; font-family: monospace; font-size: 24px; font-weight: bold; }
+    </style>
+  </defs>
+
+  <!-- Fondo estilo terminal minimalista -->
+  <rect x="5" y="5" width="110" height="110" rx="15" class="bg" />
+
+  <!-- Fuego (Arranque / Fire) -->
+  <path class="fire" d="M60 20 Q70 45 50 65 Q80 50 70 85 Q60 100 40 85 Q30 65 50 50 Q35 40 60 20 Z" />
+  <path class="fire-inner" d="M60 40 Q65 55 55 68 Q65 60 62 80 Q55 90 48 80 Q45 68 55 58 Q48 50 60 40 Z" />
+
+  <!-- Silueta geométrica del Loro (Cabeza y pico) -->
+  <path d="M 35 35 Q 55 25 65 45 Q 60 45 45 40 Z" fill="#ffffff" />
+  <circle cx="52" cy="35" r="4" fill="#000000" />
+  <!-- Pico del loro -->
+  <path d="M 65 43 L 75 48 L 63 53 Z" fill="#ff9900" />
+
+  <!-- Código de Script (>_) -->
+  <text x="25" y="100" class="code-text">&gt;_</text>
+</svg>
